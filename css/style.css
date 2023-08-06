@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+  width: 400px;
+}
+
+.red {
+  height: 100px;
+  background: #ff0000;
+}
+.puple {
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  float: right;
+  margin: 10px;
+}
