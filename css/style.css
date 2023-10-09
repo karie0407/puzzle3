@@ -19,13 +19,43 @@ body {
   right: 20px;
   background: #ffffff;
 }
-.right {
+.puple {
   width: 40px;
   height: 40px;
   float: right;
   margin: 10px;
+  background: #a9004b;
 }
 
-.puple1, .puple2, .puple3 {
-  background: #a9004b;
+.green {
+width: 150px;
+height: 250px;
+float: left;
+background: #00ff51;
+}
+.brown {
+  width: 250px;
+  height: 250px;
+  float: left;
+  background: #8c2727;
+  position: relative;
+}
+.box {
+position: absolute;
+top: 40px;
+left: 40px;
+}
+.orange {
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  margin-top: 10px;
+  border: 5px solid #ffffff;
+}
+.orange:first-child {
+  margin-top: 0;
+}
+.yellow {
+  height: 100px;
+  background: #ffd000;
 }
