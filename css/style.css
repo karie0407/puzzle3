@@ -3,27 +3,29 @@
 body {
   width: 400px;
 }
-
-.red {
-  height: 100px;
-  background: #ff0000;
-}
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-.position {
+.red {
   position: relative;
-  background: #ffffff;
-  padding: 20px;
+  height: 100px;
+  background: #ff0000;
 }
-.puple {
+.white {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #ffffff;
+}
+.right {
   width: 40px;
   height: 40px;
-  background: #a9004b;
-  float: left;
-  position: absolute;
+  float: right;
   margin: 10px;
 }
 
+.puple1, .puple2, .puple3 {
+  background: #a9004b;
+}
